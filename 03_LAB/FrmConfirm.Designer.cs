@@ -115,6 +115,7 @@
             this.btnSubmit.TabIndex = 18;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // label2
             // 
@@ -218,6 +219,7 @@
             this.Controls.Add(this.label3);
             this.Name = "FrmConfirm";
             this.Text = "FrmConfirm";
+            this.Load += new System.EventHandler(this.FrmConfirm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
