@@ -162,5 +162,34 @@ namespace _03_LAB
                 MessageBox.Show(ioex.Message + ": The input value is out of the valid range.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FrmRegistration_Load(object sender, EventArgs e)
+        {
+            string[] ListOfProgram = new string[]
+    {
+            "BS Information Technology",
+            "BS Computer Science",
+            "BS Information Systems",
+            "BS in Accountancy",
+            "BS in Hospitality Management",
+            "BS in Tourism Management"
+    };
+
+            for (int i = 0; i < 6; i++)
+            {
+                cbPrograms.Items.Add(ListOfProgram[i].ToString());
+            }
+            string[] ListOfGender = new string[]
+       {
+            "Male",
+            "Female",
+
+       };
+
+            for (int i = 0; i < ListOfGender.Length; i++)
+            {
+                cbGender.Items.Add(ListOfGender[i].ToString());
+            }
+        }
     }
 }

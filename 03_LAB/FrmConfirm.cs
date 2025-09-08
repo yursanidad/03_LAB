@@ -15,6 +15,7 @@ namespace _03_LAB
         public FrmConfirm()
         {
             InitializeComponent();
+           
         }
 
 
@@ -34,12 +35,13 @@ namespace _03_LAB
 
         private void FrmConfirm_Load(object sender, EventArgs e)
         {
+           
             lblStudentNo.Text = StudentInformationClass.SetStudentNo.ToString();
             lblName.Text = StudentInformationClass.SetFullName;
             lblProgram.Text = StudentInformationClass.SetProgram;
             lblBirthday.Text = StudentInformationClass.SetBirthday;
             lblGender.Text = StudentInformationClass.SetGender;
-            lblContactNo.Text = StudentInformationClass.SetContactNo.ToString();
+            lblContactNo.Text = "+63"+StudentInformationClass.SetContactNo.ToString();
             lblAge.Text = StudentInformationClass.SetAge.ToString();
         }
     }
