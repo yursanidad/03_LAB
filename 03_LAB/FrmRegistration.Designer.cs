@@ -29,23 +29,25 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtStudentNo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.txtFirstName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.datePickerBirtday = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.txtContactNo = new System.Windows.Forms.TextBox();
+            this.cbPrograms = new System.Windows.Forms.ComboBox();
+            this.cbGender = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtMiddleInitial = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -58,12 +60,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Student No.";
             // 
-            // textBox1
+            // txtStudentNo
             // 
-            this.textBox1.Location = new System.Drawing.Point(143, 92);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtStudentNo.Location = new System.Drawing.Point(143, 92);
+            this.txtStudentNo.Name = "txtStudentNo";
+            this.txtStudentNo.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentNo.TabIndex = 1;
             // 
             // label2
             // 
@@ -96,26 +98,26 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Last Name";
             // 
-            // textBox2
+            // txtLastName
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 129);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtLastName.Location = new System.Drawing.Point(143, 129);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(100, 20);
+            this.txtLastName.TabIndex = 5;
             // 
-            // textBox3
+            // txtAge
             // 
-            this.textBox3.Location = new System.Drawing.Point(143, 170);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(62, 20);
-            this.textBox3.TabIndex = 6;
+            this.txtAge.Location = new System.Drawing.Point(143, 170);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(62, 20);
+            this.txtAge.TabIndex = 6;
             // 
-            // textBox4
+            // txtFirstName
             // 
-            this.textBox4.Location = new System.Drawing.Point(500, 131);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.txtFirstName.Location = new System.Drawing.Point(450, 131);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(100, 20);
+            this.txtFirstName.TabIndex = 7;
             // 
             // label5
             // 
@@ -127,18 +129,18 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Birthday";
             // 
-            // dateTimePicker1
+            // datePickerBirtday
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(143, 211);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 9;
+            this.datePickerBirtday.Location = new System.Drawing.Point(143, 211);
+            this.datePickerBirtday.Name = "datePickerBirtday";
+            this.datePickerBirtday.Size = new System.Drawing.Size(200, 20);
+            this.datePickerBirtday.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(412, 130);
+            this.label6.Location = new System.Drawing.Point(362, 132);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 19);
             this.label6.TabIndex = 10;
@@ -154,28 +156,28 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Program";
             // 
-            // textBox5
+            // txtContactNo
             // 
-            this.textBox5.Location = new System.Drawing.Point(500, 214);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(148, 20);
-            this.textBox5.TabIndex = 12;
+            this.txtContactNo.Location = new System.Drawing.Point(500, 214);
+            this.txtContactNo.Name = "txtContactNo";
+            this.txtContactNo.Size = new System.Drawing.Size(148, 20);
+            this.txtContactNo.TabIndex = 12;
             // 
-            // comboBox1
+            // cbPrograms
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(500, 89);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(180, 21);
-            this.comboBox1.TabIndex = 13;
+            this.cbPrograms.FormattingEnabled = true;
+            this.cbPrograms.Location = new System.Drawing.Point(500, 89);
+            this.cbPrograms.Name = "cbPrograms";
+            this.cbPrograms.Size = new System.Drawing.Size(180, 21);
+            this.cbPrograms.TabIndex = 13;
             // 
-            // comboBox2
+            // cbGender
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(500, 172);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(74, 21);
-            this.comboBox2.TabIndex = 14;
+            this.cbGender.FormattingEnabled = true;
+            this.cbGender.Location = new System.Drawing.Point(500, 172);
+            this.cbGender.Name = "cbGender";
+            this.cbGender.Size = new System.Drawing.Size(74, 21);
+            this.cbGender.TabIndex = 14;
             // 
             // label8
             // 
@@ -197,39 +199,58 @@
             this.label9.TabIndex = 16;
             this.label9.Text = "Contact No:";
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(295, 305);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 75);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Register";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegister.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.btnRegister.ForeColor = System.Drawing.Color.Black;
+            this.btnRegister.Location = new System.Drawing.Point(295, 305);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(134, 75);
+            this.btnRegister.TabIndex = 17;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold);
+            this.label10.Location = new System.Drawing.Point(556, 131);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(31, 19);
+            this.label10.TabIndex = 18;
+            this.label10.Text = "M.I";
+            // 
+            // txtMiddleInitial
+            // 
+            this.txtMiddleInitial.Location = new System.Drawing.Point(593, 131);
+            this.txtMiddleInitial.Name = "txtMiddleInitial";
+            this.txtMiddleInitial.Size = new System.Drawing.Size(67, 20);
+            this.txtMiddleInitial.TabIndex = 19;
             // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(705, 408);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtMiddleInitial);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.cbGender);
+            this.Controls.Add(this.cbPrograms);
+            this.Controls.Add(this.txtContactNo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.datePickerBirtday);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtFirstName);
+            this.Controls.Add(this.txtAge);
+            this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtStudentNo);
             this.Controls.Add(this.label1);
             this.Name = "FrmRegistration";
             this.Text = "Organizational Profile";
@@ -241,23 +262,25 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtStudentNo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.TextBox txtFirstName;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker datePickerBirtday;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox txtContactNo;
+        private System.Windows.Forms.ComboBox cbPrograms;
+        private System.Windows.Forms.ComboBox cbGender;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtMiddleInitial;
     }
 }
 
